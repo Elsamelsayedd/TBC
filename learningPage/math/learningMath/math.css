@@ -1,0 +1,31 @@
+/* img{
+    height: 350px;
+    
+} */
+h4 {
+  color: rebeccapurple;
+}
+/* video{
+    width: 100%;
+   
+} */
+body {
+  background-color: #ffebd8;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color: rebeccapurple;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
