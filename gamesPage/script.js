@@ -4,10 +4,12 @@ var btnMemory=document.querySelector(".btnMemory");
 var btnDice=document.querySelector(".btnDice");
 var btnTicTac=document.querySelector(".btnTicTac");
 
-btnLevitate.addEventListener("click",function(){
-    window.location.href = "LevitateBoard/index.html";
-
-});
+if (btnLevitate) {
+    btnLevitate.addEventListener("click",function(){
+        window.location.href = "LevitateBoard/index.html";
+    
+    });
+};
 
 
 btnReaction.addEventListener("click",function(){
